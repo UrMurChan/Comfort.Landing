@@ -1,23 +1,50 @@
-import logo from './logo.svg';
+import SpeedDialBen from "./component/SpeedDialComfort";
+import AppBarBen from "./component/AppBarComfort";
+import {createTheme, ThemeProvider} from '@mui/material/styles';
+import {green, grey} from '@mui/material/colors';
+import {Stack} from "@mui/material";
+import Toolbar from "@mui/material/Toolbar";
 import './App.css';
+import StartScreen from "./component/StartScreen"
+import Examples from "./component/Examples"
+import Footer from "./component/Footer"
+import HowWork from "./component/HowWork"
+import Reasons from "./component/Reasons"
+import TypesJobs from "./component/TypesJobs"
+import React, { useEffect} from "react";
+const theme = createTheme({
+  palette: {
+      primary: {
+          main: grey[800],
+      },
+      secondary: {
+          main: green[500],
+      },
+  },
+});
 
 function App() {
+  useEffect(() => {
+    document.title = "Комфорт Сервис";  
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </header>
-    </div>
+    
+    <ThemeProvider theme={theme}>
+      <SpeedDialBen/>
+      <AppBarBen />
+
+      <Stack spacing={0}>
+        <Toolbar/>
+        <div className='BG'>
+        <StartScreen/>
+        <TypesJobs/>
+        <Reasons/>
+        <Examples/>
+        <HowWork/>
+        <Footer/>
+        </div>
+      </Stack>
+    </ThemeProvider>
   );
 }
 
