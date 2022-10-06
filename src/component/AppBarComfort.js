@@ -15,14 +15,11 @@ import Button from '@mui/material/Button';
 import {Box} from "@mui/material";
 
 const drawerWidth = 240;
-const title = "КОМФОРТ СЕРВИС"
+const title = "ДМИТРОВ ТЕПЛОДОМ"
 const navItems = [ 
     {name: 'НАЧАЛО', link: '#Feedback'},
     {name: 'О НАС', link: '#Feedback'},
     {name: 'ГАЛЕРЕЯ', link: '#Feedback'},
-    {name: '+7(925)739-93-03',link: '#Feedback' },
-    {name: '+7(915)410-43-00', link: '#Feedback'},
-    {name: '+7(495)642-24-31', link: '#Feedback'},
     {name: 'КОНТАКТЫ', link: '#Feedback'},
 ];
 

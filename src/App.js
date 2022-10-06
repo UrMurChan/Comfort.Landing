@@ -25,7 +25,7 @@ const theme = createTheme({
 
 function App() {
   useEffect(() => {
-    document.title = "Комфорт Сервис";  
+    document.title = "Дмитров Теплодом";  
   }, []);
   return (
     
