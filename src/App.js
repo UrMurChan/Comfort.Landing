@@ -11,7 +11,8 @@ import Footer from "./component/Footer"
 import HowWork from "./component/HowWork"
 import Reasons from "./component/Reasons"
 import TypesJobs from "./component/TypesJobs"
-import React, { useEffect} from "react";
+import { useEffect, useState } from "react";
+
 const theme = createTheme({
   palette: {
       primary: {
@@ -25,14 +26,13 @@ const theme = createTheme({
 
 function App() {
   useEffect(() => {
-    document.title = "Дмитров Теплодом";  
+    document.title = "Дмитров Отопление";  
   }, []);
   return (
     
     <ThemeProvider theme={theme}>
       <SpeedDialBen/>
       <AppBarBen />
-
       <Stack spacing={0}>
         <Toolbar/>
         <div className='BG'>

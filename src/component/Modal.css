@@ -1,0 +1,134 @@
+.modalTeplo{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  .modalTeplo.active{
+    opacity: 1;
+    pointer-events: all;
+  }
+  .modal__contentTeplo{
+    padding: 5%;
+    border-radius:15px ;
+    background-color: #5c85f7;
+    height: auto;
+    width: 30%;
+    transform: scale(0.5);
+    transition: 0.4s all;
+  }
+  .modal__contentTeplo.active{
+    transform: scale(1);
+  }
+  .modalVoda{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  .modalVoda.active{
+    opacity: 1;
+    pointer-events: all;
+  }
+  .modal__contentVoda{
+    padding: 5%;
+    border-radius:15px ;
+    background-color: #5c85f7;
+    height: auto;
+    width: 30%;
+    transform: scale(0.5);
+    transition: 0.4s all;
+  }
+  .modal__contentVoda.active{
+    transform: scale(1);
+  }
+  .modalKanal{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  .modalKanal.active{
+    opacity: 1;
+    pointer-events: all;
+  }
+  .modal__contentKanal{
+    padding: 5%;
+    border-radius:15px ;
+    background-color: #5c85f7;
+    height: auto;
+    width: 30%;
+    transform: scale(0.5);
+    transition: 0.4s all;
+  }
+  .modal__contentKanal.active{
+    transform: scale(1);
+  }
+  @media screen and (max-width: 900px){
+    .modal__contentKanal{
+      padding: 5%;
+      border-radius:15px ;
+      background-color: #5c85f7;
+      height: auto;
+      width: 80%;
+      transform: scale(0.5);
+      transition: 0.4s all;
+    }
+    .modal__contentKanal.active{
+      transform: scale(1);
+    }
+    .modal__contentVoda{
+      padding: 5%;
+      border-radius:15px ;
+      background-color: #5c85f7;
+      height: auto;
+      width: 80%;
+      transform: scale(0.5);
+      transition: 0.4s all;
+    }
+    .modal__contentVoda.active{
+      transform: scale(1);
+  }
+  .modal__contentTeplo{
+    padding: 5%;
+    border-radius:15px ;
+    background-color: #5c85f7;
+    height: auto;
+    width: 80%;
+    transform: scale(0.5);
+    transition: 0.4s all;
+  }
+  .modal__contentTeplo.active{
+    transform: scale(1);
+  }
+}

@@ -1,48 +1,262 @@
-.App {
-  text-align: center;
+  .App {
+    text-align: center;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .Container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Window1{
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    border-color: #5c85f7;
+    border-width: 8px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 55%;
+    border-style: solid;
+    margin: auto;
+    margin-bottom: 6%;
+  }
+  .Purum{
+    margin: auto;
+    width: 95%;
+  }
+  .Up{
+    width: 87%;
+    height: 18%;
+    display: inline-flex;
+    padding-left: 13%;
+    padding-bottom: 60px;
+    text-align: center;
+      vertical-align: middle;
+  }
+  .Icons{
+    margin-top: 7px;
+  }
+  .BG{
+    background: linear-gradient(180deg, #b5c0fa 60%, #748ad4);
+  }
+  .MuiPaper-root, MuiPaper-elevation, MuiPaper-elevation16 ,MuiDrawer-paper ,MuiDrawer-paperAnchorLeft ,css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+    background-color: #5c85f7 !important;
+  }
+  .BigPhoto{
+    background-image: url(./img/Fone.png);
+    background-size: cover;
+    padding-top: 1%;
+    padding-bottom: 9%;
+    text-align: center;
+  }
+  .PriceLists{
+    padding-left: 15%;
+    padding-bottom: 10%;
+    padding-top: 3%;
+  }
+  .Footer{
+    width: 87%;
+    height: 70px;
+    display: inline-flex;
+    padding-left: 13%;
+    padding-bottom: 4%;
+    text-align: center;
+      vertical-align: middle;
+  }
+  .Setka{
+    width: 87%;
+  }
+  h8{
+    color: aliceblue !important;
+    font-size: larger;
+  }
+  h9{
+    color: aliceblue !important;
+    font-size: large;
+  }
+  h10{
+    color: aliceblue !important;
+    font-size: large;
+  }
+  h1{
+    color: aliceblue !important;
+    font-size: 40px;
+  }
+  h2{
+    color: aliceblue !important;
+    font-size: 40px;
+  }
+  h3{
+    color: aliceblue !important;
+    font-size:30px;
+  }
+  h4{
+    color: rgb(6, 123, 226) ;
+    font-size: 40px;
+  }
+  .formControl{
+    width: 100%;
+    border-radius: 5px;
+    background-color: aliceblue ;
+    padding: 1px;
+  }
+  .Carousel{
+    align-self: flex-end;
+    width: 98%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto ;
+    display: block;
+    white-space: pre-wrap;
+    border:"5px solid #E8044E ";
+    background-size: contain;
+
 }
-.Container{
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+.Phone{
+    width: 82%;
+    background-color: #5c85f7;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto ;
+    display: block;
+    white-space: pre-wrap;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 40px;
+   margin-bottom: 20px;
 }
-.Up{
-  width: 87%;
-  height: 70px;
-  display: inline-flex;
-  padding-left: 13%;
-  padding-bottom: 60px;
-  background-color: aliceblue;
-  text-align: center;
-    vertical-align: middle;
+
+@media screen and (max-width: 900px){
+  html{
+    scroll-behavior: smooth;
+  }
+  .App {
+    text-align: center;
+  }
+  .Carousel{
+    align-self: flex-end;
+    width: 98%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto ;
+    display: block;
+    white-space: pre-wrap;
+    border:"5px solid #E8044E ";
+    background-size: contain;
+
 }
-.Icons{
-  margin-top: 7px;
+.Phone{
+    width: 82%;
+    background-color: #5c85f7;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto ;
+    display: block;
+    white-space: pre-wrap;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    background-size: contain;
 }
-.BG{
-  background: linear-gradient(180deg, #b7c1f5 60%, #1c3ead);
-}
-.MuiPaper-root, MuiPaper-elevation, MuiPaper-elevation16 ,MuiDrawer-paper ,MuiDrawer-paperAnchorLeft ,css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
-  background-color: #1c3886 !important;
-}
-.BigPhoto{
-  background-image: url(./img/Fone.png);
-  background-size: cover;
-  padding-top: 1%;
-  padding-bottom: 24%;
-  text-align: center;
-}
-.PriceLists{
-  padding-left: 15%;
-  padding-bottom: 10%;
-  padding-top: 3%;
-}
-.Footer{
-  width: 87%;
-  height: 70px;
-  display: inline-flex;
-  padding-left: 13%;
-  padding-bottom: 4%;
-  text-align: center;
-    vertical-align: middle;
+  .Window1{
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    border-color: #5c85f7;
+    border-width: 8px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 95%;
+    border-style: solid;
+    margin: auto;
+    margin-bottom: 6%;
+  }
+  .Purum{
+    margin: auto;
+    width: 95%;
+  }
+  .Up{
+    width: 98%;
+    height: 18%;
+    display: inline-flex;
+    padding-left: 1%;
+    padding-bottom: 60px;
+    text-align: center;
+      vertical-align: middle;
+  }
+  .Icons{
+    margin-top: 7px;
+  }
+  .BG{
+    background: linear-gradient(180deg, #b5c0fa 60%, #748ad4);
+  }
+  .MuiPaper-root, MuiPaper-elevation, MuiPaper-elevation16 ,MuiDrawer-paper ,MuiDrawer-paperAnchorLeft ,css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+    background-color: #5c85f7 !important;
+  }
+  .BigPhoto{
+    background-image: url(./img/Fone.png);
+    background-size: cover;
+    padding-top: 1%;
+    padding-bottom: 24%;
+    text-align: center;
+  }
+  .PriceLists{
+    padding-left: 15%;
+    padding-bottom: 10%;
+    padding-top: 3%;
+  }
+  .Footer{
+    width: 87%;
+    height: 70px;
+    display: inline-flex;
+    padding-left: 13%;
+    padding-bottom: 4%;
+    text-align: center;
+      vertical-align: middle;
+  }
+  .Setka{
+    width: 100%;
+  }
+  h8{
+    color: aliceblue !important;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  h9{
+    color: aliceblue !important;
+    font-size: 14px;
+  }
+  h10{
+    color: aliceblue !important;
+    font-size: large;
+  }
+  h2{
+    color: aliceblue !important;
+    font-size: x-large;
+  }
+  h3{
+    color: aliceblue !important;
+    font-size: larger;
+  }
+  h4{
+    color: rgb(6, 123, 226) ;
+    font-size: 40px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .MuiCardContent-root{
+    padding: 0% !important;
+    margin: 0%  !important;
+  }
+  .css-46bh2p-MuiCardContent-root{
+    padding: 0% !important;
+    margin: 0%  !important;
+  }
+  img{
+    max-height: 400px;
+    width: auto;
+
+  }
 }

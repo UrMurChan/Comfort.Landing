@@ -13,14 +13,13 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 //import Logo from '../img/logo123.png';
 import {Box} from "@mui/material";
-
 const drawerWidth = 240;
-const title = "ДМИТРОВ ТЕПЛОДОМ"
+const title = "ДМИТРОВ ОТОПЛЕНИЕ"
 const navItems = [ 
-    {name: 'НАЧАЛО', link: '#Feedback'},
-    {name: 'О НАС', link: '#Feedback'},
-    {name: 'ГАЛЕРЕЯ', link: '#Feedback'},
-    {name: 'КОНТАКТЫ', link: '#Feedback'},
+    {name: 'НАЧАЛО', link: '#Start'},
+    {name: 'УСЛУГИ', link: '#Jobs'},
+    {name: 'ГАЛЕРЕЯ', link: '#Examples'},
+    {name: 'КОНТАКТЫ', link: '#Footer'},
 ];
 
 function AppBarComfort(props) {
