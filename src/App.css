@@ -11,9 +11,10 @@
   }
   .Window1{
     /* background-color: rgba(0, 0, 0, 0.3); */
+    background-color: #5c85f7;
     border-color: #5c85f7;
     border-width: 8px;
-    border-radius: 5px;
+    border-radius: 60px;
     padding: 5px;
     width: 55%;
     border-style: solid;
@@ -40,7 +41,7 @@
     background: linear-gradient(180deg, #b5c0fa 60%, #748ad4);
   }
   .MuiPaper-root, MuiPaper-elevation, MuiPaper-elevation16 ,MuiDrawer-paper ,MuiDrawer-paperAnchorLeft ,css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
-    background-color: #5c85f7 !important;
+    background-color: #7499ff !important;
   }
   .BigPhoto{
     background-image: url(./img/Fone.png);
@@ -165,7 +166,7 @@
     /* background-color: rgba(0, 0, 0, 0.3); */
     border-color: #5c85f7;
     border-width: 8px;
-    border-radius: 5px;
+    border-radius: 60px;
     padding: 5px;
     width: 95%;
     border-style: solid;
@@ -192,7 +193,7 @@
     background: linear-gradient(180deg, #b5c0fa 60%, #748ad4);
   }
   .MuiPaper-root, MuiPaper-elevation, MuiPaper-elevation16 ,MuiDrawer-paper ,MuiDrawer-paperAnchorLeft ,css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
-    background-color: #5c85f7 !important;
+    background-color: #7499ff !important;
   }
   .BigPhoto{
     background-image: url(./img/Fone.png);

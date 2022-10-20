@@ -18,7 +18,7 @@ export default function Footer(){
                         <Item><Card sx={{ borderRadius:"15px 15px"}}>
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                           <CallIcon sx={{ fontSize: 40 }}/>
+                           <CallIcon sx={{ fontSize: 40 ,color:"white"}}/>
                             <h8>Телефоны</h8>
                             <br/><h9>+7(925)739-93-03</h9>
                             <br/><h9>+7(495)642-24-31</h9>
@@ -30,7 +30,7 @@ export default function Footer(){
                         <Item><Card sx={{ borderRadius:"15px 15px"}}>
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                       <AlternateEmailIcon sx={{ fontSize: 40 }}/>
+                       <AlternateEmailIcon sx={{ fontSize: 40 ,color:"white"}}/>
                             <h8>Эл.Почта</h8>
                             <br/><h9>www.baxi-comfort.ru</h9>
                             <br/><h9>info@baxi-comfort.ru</h9>
@@ -53,7 +53,7 @@ export default function Footer(){
                         <Item><Card sx={{ borderRadius:"15px 15px"}}>
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                          <AccessTimeIcon sx={{ fontSize: 40 }}/>
+                          <AccessTimeIcon sx={{ fontSize: 40 ,color:"white"}}/>
                             <h8>Приезжайте</h8>
                             <br/><h9>МО, г.Дмитров,<br/>ул.Профессиональная ,д.135 </h9>
                             </Typography>  

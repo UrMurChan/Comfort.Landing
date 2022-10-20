@@ -30,7 +30,7 @@ export default function TypesJobs(){
             <h2>Виды работ, которые мы выполняем для наших клиентов</h2>
             <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 1, sm: 10, md: 12 }}>
   <Grid item xs={3.5}>
-    <Item><Card sx={{ maxWidth: 345 ,borderRadius:"25px 15px"}}>
+    <Item><Card sx={{ maxWidth: 345 ,minHeight:"580px",borderRadius:"25px 15px"}}>
       <CardMedia
         component="img"
         height="240"
@@ -39,10 +39,10 @@ export default function TypesJobs(){
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Отопление
+        <h2> Отопление</h2>
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Монтаж автономного отопления любого типа (двухконтурные котлы, электрический обогрев,теплые полы). Установка радиаторов и конвекторов.
+       <h9> Монтаж автономного отопления любого типа (двухконтурные котлы, электрический обогрев,теплые полы). Установка радиаторов и конвекторов.</h9>
         </Typography>
       </CardContent>
       <CardActions>
@@ -51,7 +51,7 @@ export default function TypesJobs(){
     </Card></Item>
   </Grid>
   <Grid item xs={3.5}>
-    <Item><Card sx={{ maxWidth: 345 ,borderRadius:"25px 15px"}}>
+    <Item><Card sx={{ maxWidth: 345 ,minHeight:"580px",borderRadius:"25px 15px"}}>
       <CardMedia
         component="img"
         height="240"
@@ -60,14 +60,10 @@ export default function TypesJobs(){
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Водоснабжение
+        <h2>Водоснабжение</h2>
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Все виды сантехнических
-работ «под ключ»: установка
-ванных, душевых кабинок,
-монтаж джакузи,
-гидроизоляция помещения.
+        <h9>  Все виды сантехнических работ «под ключ»: установка ванных, душевых кабинок, монтаж джакузи, гидроизоляция помещения.</h9>
         </Typography>
       </CardContent>
       <CardActions>
@@ -77,7 +73,7 @@ export default function TypesJobs(){
   </Grid>
   <Grid item xs={3.5}>
   <Item>
-                <Card sx={{ maxWidth: 345 ,borderRadius:"25px 15px"}}>
+                <Card sx={{ maxWidth: 345 ,minHeight:"580px",borderRadius:"25px 15px"}}>
       <CardMedia
         component="img"
         height="240"
@@ -86,14 +82,14 @@ export default function TypesJobs(){
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Канализация
+        <h2>Канализация</h2>
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Монтаж канализационных
+        <h9>Монтаж канализационных
 систем с использованием
 современных материалов.
 Установка систем
-очистки сточных вод.
+очистки сточных вод.</h9>
         </Typography>
       </CardContent>
       <CardActions>
