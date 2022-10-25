@@ -46,7 +46,7 @@ export default function TypesJobs(){
         </Typography>
       </CardContent>
       <CardActions>
-      <Button  variant="contained" size="large" className='open-btn' onClick={() => setModalActiveTeplo(true)}>Заказать прайс</Button>
+      <Button  variant="contained" size="large" className='open-btn' color='success' onClick={() => setModalActiveTeplo(true)}>Заказать прайс</Button>
       </CardActions>
     </Card></Item>
   </Grid>
@@ -67,7 +67,7 @@ export default function TypesJobs(){
         </Typography>
       </CardContent>
       <CardActions>
-      <Button  variant="contained" size="large" className='open-btn' onClick={() => setModalActiveVoda(true)}>Заказать прайс</Button>
+      <Button  variant="contained" size="large" className='open-btn'color='success' onClick={() => setModalActiveVoda(true)}>Заказать прайс</Button>
       </CardActions>
     </Card></Item>
   </Grid>
@@ -92,11 +92,13 @@ export default function TypesJobs(){
 очистки сточных вод.</h9>
         </Typography>
       </CardContent>
+      <div className='buttonplace'>
       <CardActions>
-      <Button  variant="contained" size="large" className='open-btn' onClick={() => setModalActiveKanal(true)}>Заказать прайс</Button>
+      <Button  variant="contained" size="large" className='open-btn' color='success' onClick={() => setModalActiveKanal(true)}>Заказать прайс</Button>
       </CardActions>
-
+      </div>
     </Card>
+
     </Item>
     </Grid>
 </Grid>

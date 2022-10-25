@@ -1,6 +1,7 @@
   .App {
     text-align: center;
-  }
+  } 
+
   html{
     scroll-behavior: smooth;
   }
@@ -226,7 +227,7 @@
   }
   h9{
     color: aliceblue !important;
-    font-size: 14px;
+    font-size: 20px;
   }
   h10{
     color: aliceblue !important;
@@ -234,7 +235,7 @@
   }
   h2{
     color: aliceblue !important;
-    font-size: x-large;
+    font-size: 36px;
   }
   h3{
     color: aliceblue !important;

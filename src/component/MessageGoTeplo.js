@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Button, MenuItem, Stack, TextField} from "@mui/material";
 import Typography from "@mui/material/Typography";
-import {useEffect, useState} from "react";
+import {useEffect, useState, useRef} from "react";
 import InputMask from 'react-input-mask';
 import PropTypes from 'prop-types';
 import { IMaskInput } from 'react-imask';
@@ -12,9 +12,10 @@ import InputLabel from '@mui/material/InputLabel';
 // import TextField from '@mui/material/TextField';
 import FormControl from '@mui/material/FormControl';
 import emailjs from 'emailjs-com';
+import ReCaptchaV2 from 'react-google-recaptcha'
 
 
-
+// const captchaRef = useRef(null);
 const TextMaskCustom = React.forwardRef(function TextMaskCustom(props, ref) {
     const { onChange, ...other } = props;
     return (
@@ -39,8 +40,10 @@ export default function MessageGoTeplo() {
 
   function sendEmail(e) {
     e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+    // const token = captchaRef.current.getValue();
+    // captchaRef.current.reset();
 
-    emailjs.sendForm('service_fl1i9yr', 'template_o50oojl', e.target, 'hdSSajA8pXWKAi7HN')
+    emailjs.sendForm('service_iojnvul', 'template_x5r9a6b', e.target, 'Vl_HlLVXzsL1XaN8Y')
       .then((result) => {
           window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
       }, (error) => {
@@ -94,6 +97,7 @@ export default function MessageGoTeplo() {
             <h2>Получите прайс на услуги монтажа системы отопления!</h2>
             <h9>Оставьте ваши данные и мы перезвоним в течении 15 минут в рабочее время с 09.00 до 20.00</h9>
             <input type="hidden" name="Type_job" value="Монтаж системы отопления" />
+            {/* <input type="hidden" name="g-recaptcha-response" value={token} /> */}
             <Stack spacing={2} direction="column" alignItems="baseline" style={{flex:0.3}}>
             <div className='formControl'>
                     <TextField 
@@ -116,9 +120,13 @@ export default function MessageGoTeplo() {
                         inputComponent={TextMaskCustom}
                         />
                     </FormControl></div>
-                <Button variant="contained" type="submit" value="Send">
+                    {/* <ReCaptchaV2
+                     sitekey={process.env.REACT_APP_SITE_KEY}
+                     ref={captchaRef}
+                     /> */}
+                <Button variant="contained" type="submit" value="Send"color='success'>
                   Отправить</Button>
-                    <p>Ваши данные в надёжных руках!</p>
+                  <h9>Ваши данные в надёжных руках!</h9>
             </Stack>
             </div>
         </Stack>

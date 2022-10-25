@@ -9,7 +9,9 @@ import img4 from "../img/img4.jpg"
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
-  <img src={img1} onDragStart={handleDragStart} role="presentation" />,
+  // <img src={img1} onDragStart={handleDragStart} role="presentation" />,
+  <img src={img2} onDragStart={handleDragStart} role="presentation" />,
+  <img src={img3} onDragStart={handleDragStart} role="presentation" />,
   <img src={img4} onDragStart={handleDragStart} role="presentation" />,
 //   <img src={img3} onDragStart={handleDragStart} role="presentation" />
 ];
