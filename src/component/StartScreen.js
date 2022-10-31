@@ -26,7 +26,7 @@ export default function StartScreen(){
                                     <CallIcon sx={{ fontSize: 60 ,color:"white"}}/>
                                     </Typography>  
                                   </Grid>
-                                  <Grid item xs={7}>
+                                  <Grid item xs={8}>
                                  <Typography gutterBottom variant="h5" component="div">
                                    
                                   <h8>Телефоны</h8><br/>
@@ -51,10 +51,10 @@ export default function StartScreen(){
                              </Typography>  
                              </Grid>
                             
-                             <Grid item xs={7}>
+                             <Grid item xs={9}>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    <h8>Эл.Почта</h8>
-                                    <br/><h9>www.baxi-comfort.ru</h9>
+                                    <h8>Эл.Почта</h8> <br/>
+                                   <h9>www.baxi-comfort.ru</h9>
                                     <br/><h9>dmitrov-teplodom@yandex.ru</h9>
                                 </Typography>  
                                 </Grid>

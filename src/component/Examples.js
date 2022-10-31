@@ -25,7 +25,7 @@ export default function Examples(){
             <AliceCarousel
 
             autoPlay 
-            // disableButtonsControls
+            disableButtonsControls
             disableDotsControls
             infinite
             autoPlayInterval={1500}

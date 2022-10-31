@@ -18,7 +18,7 @@ import MessageGoTeplo from "./MessageGoTeplo";
 import MessageGoVoda from "./MessageGoVoda";
 import MessageGoKanal from "./MessageGoKanal";
 import { useEffect, useState } from "react";
-
+import "./TypeJobs.css"
 
 
 export default function TypesJobs(){
@@ -27,7 +27,9 @@ export default function TypesJobs(){
   const [modalActiveKanal,setModalActiveKanal] = useState(false)
     return(
         <div className='PriceLists' id='Jobs'>
+          <div className='Window2'>
             <h2>Виды работ, которые мы выполняем для наших клиентов</h2>
+            </div>
             <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 1, sm: 10, md: 12 }}>
   <Grid item xs={3.5}>
     <Item><Card sx={{ maxWidth: 345 ,minHeight:"580px",borderRadius:"25px 15px"}}>
@@ -42,7 +44,7 @@ export default function TypesJobs(){
         <h2> Отопление</h2>
         </Typography>
         <Typography variant="body2" color="text.secondary">
-       <h9> Монтаж автономного отопления любого типа (двухконтурные котлы, электрический обогрев,теплые полы). Установка радиаторов и конвекторов.</h9>
+       <h9> Монтаж автономного отопления любого типа (котлы, электрический обогрев,теплые полы). Установка радиаторов и конвекторов.</h9>
         </Typography>
       </CardContent>
       <CardActions>

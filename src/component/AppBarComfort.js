@@ -39,7 +39,7 @@ function AppBarComfort(props) {
             <List>
                 {navItems.map((item) => (
                     <ListItem key={item.name} disablePadding>
-                        <ListItemButton sx={{textAlign: 'center'}} href={item.link} >
+                        <ListItemButton variant="h6 "sx={{textAlign: 'center'}} href={item.link} >
                             <ListItemText primary={item.name}/>
                         </ListItemButton>
                     </ListItem>

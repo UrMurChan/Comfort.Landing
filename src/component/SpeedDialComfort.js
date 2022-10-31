@@ -7,9 +7,9 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const actions = [
-    {icon: <WhatsAppIcon/>, name: 'Написать в Whats App', key: 'whatApp', func: () => { window.open("https://wa.me/79257330375?text=Здравствуйте, я сайта dmitrov-otoplenie.ru интересуют ваши услуги")}},
-    {icon: <MailIcon/>, name: 'Написать письмо', key: 'mail', func: () => { window.open("mailto:dmitrov-teplodom@yandex.ru") }},
-    {icon: <TelegramIcon/>, name: 'Telegram', key: 'telegram', func: () => { window.open("tg://resolve?domain=AlekhandroUp") }},
+    {icon: <WhatsAppIcon/>, name: 'Написать в Whats App', key: 'whatApp', func: () => { window.open("https://wa.me/79645545829?text=Здравствуйте, я сайта dmitrov-otoplenie.ru интересуют ваши услуги")}},
+    {icon: <MailIcon/>, name: 'Написать письмо', key: 'mail', func: () => {  window.open("https://mail.yandex.ru/compose?mailto=dmitrov-otoplenie@yandex.ru")}},
+    {icon: <TelegramIcon/>, name: 'Telegram', key: 'telegram', func: () => { window.open("https://t.me/sergeynosov2005") }}, 
 ];
 
 export default function SpeedDialComfort() {

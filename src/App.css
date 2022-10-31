@@ -1,6 +1,9 @@
   .App {
     text-align: center;
   } 
+  a{
+    text-decoration: none !important;
+  }
 
   html{
     scroll-behavior: smooth;
@@ -22,6 +25,17 @@
     margin: auto;
     margin-bottom: 6%;
   }
+  .Window2{
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-color: #5c85f7;
+    border-color: #5c85f7;
+    border-width: 8px;
+    border-radius: 60px;
+    padding: 5px;
+    width: 80%;
+    border-style: solid;
+    margin-bottom: 6%;
+  }
   .Purum{
     margin: auto;
     width: 95%;
@@ -39,7 +53,8 @@
     margin-top: 7px;
   }
   .BG{
-    background: linear-gradient(180deg, #b5c0fa 60%, #748ad4);
+    /* background: linear-gradient(180deg, #b5c0fa 60%, #748ad4); */
+    background-color: rgb(209, 217, 255);
   }
   .MuiPaper-root, MuiPaper-elevation, MuiPaper-elevation16 ,MuiDrawer-paper ,MuiDrawer-paperAnchorLeft ,css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
     background-color: #7499ff !important;
@@ -50,6 +65,11 @@
     padding-top: 1%;
     padding-bottom: 9%;
     text-align: center;
+    border-color: #5c85f7;
+    border-width: 0px;
+    border-radius: 0px  0px  180px  180px;
+    border-style: solid;
+
   }
   .PriceLists{
     padding-left: 15%;
@@ -69,6 +89,14 @@
     width: 87%;
   }
   h8{
+    color: aliceblue !important;
+    font-size: larger;
+  }
+  .MuiTypography-root .MuiTypography-body1 .MuiListItemText-primary .css-10hburv-MuiTypography-root{
+    color: aliceblue !important;
+    font-size: larger;
+  }
+  h6{
     color: aliceblue !important;
     font-size: larger;
   }
@@ -126,7 +154,8 @@
     text-align: center;
     padding-top: 5px;
     border-radius: 40px;
-   margin-bottom: 20px;
+    padding-bottom: 2%;
+   margin-bottom: 40px;
 }
 
 @media screen and (max-width: 900px){
@@ -168,9 +197,9 @@
     border-color: #5c85f7;
     border-width: 8px;
     border-radius: 60px;
+    border-style: solid;
     padding: 5px;
     width: 95%;
-    border-style: solid;
     margin: auto;
     margin-bottom: 6%;
   }
@@ -202,6 +231,10 @@
     padding-top: 1%;
     padding-bottom: 24%;
     text-align: center;
+    border-color: #5c85f7;
+    border-width: 0px;
+    border-radius: 0px  0px  80px  80px;
+    border-style: solid;
   }
   .PriceLists{
     padding-left: 15%;
@@ -220,14 +253,19 @@
   .Setka{
     width: 100%;
   }
+  .MuiTypography-root {
+    color: aliceblue !important;
+    font-size: larger;
+  }
+
   h8{
     color: aliceblue !important;
-    font-size: 10px;
+    font-size: 17px;
     font-weight: bold;
   }
   h9{
     color: aliceblue !important;
-    font-size: 20px;
+    font-size: 15px;
   }
   h10{
     color: aliceblue !important;
@@ -235,7 +273,7 @@
   }
   h2{
     color: aliceblue !important;
-    font-size: 36px;
+    font-size: 24px;
   }
   h3{
     color: aliceblue !important;
@@ -261,4 +299,11 @@
     width: auto;
 
   }
+  .MuiCardActions-root {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+  }
+
 }

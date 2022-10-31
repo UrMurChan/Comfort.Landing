@@ -10,31 +10,52 @@ import CardContent from '@mui/material/CardContent';
 
 export default function Footer(){
     return(
-        <div>
-            <div className='Up' id='Footer'>
+        <div className='Up'>
+                {/* <h2> <img src={Comfort}/>  </h2> */}
                 <div className='Setka'>
                 <Grid container spacing={{ xs: 1, md: 1 }} columns={{ xs: 12, sm: 10, md: 12 }}>
                     <Grid item xs={4}>
-                        <Item><Card sx={{ borderRadius:"15px 15px"}}>
+                        <Item><Card sx={{ borderRadius:"15px 15px",minHeight:"160px"}}>
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
-                           <CallIcon sx={{ fontSize: 40 ,color:"white"}}/>
-                            <h8>Телефоны</h8>
-                            <br/><h9>+7(925)739-93-03</h9>
-                            <br/><h9>+7(495)642-24-31</h9>
-                            </Typography>  
+                            <Grid container spacing={{ xs: 1, md: 1 }} columns={{ xs: 1, sm: 10, md: 12 }}>
+                                <Grid item xs={2}>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                    <CallIcon sx={{ fontSize: 60 ,color:"white"}}/>
+                                    </Typography>  
+                                  </Grid>
+                                  <Grid item xs={8}>
+                                 <Typography gutterBottom variant="h5" component="div">
+                                   
+                                  <h8>Телефоны</h8><br/>
+                                 <a href="tel:+74956422431">
+                                    <h9>+7(495)642-24-31</h9></a>
+                                    <a href="tel:+79257399303">
+                                     <br/><h9>+7(925)739-93-03</h9></a>
+                             </Typography>
+                             </Grid>  
+
+                            </Grid>
                         </CardContent>
                         </Card></Item>
                     </Grid>
                     <Grid item xs={4}>
-                        <Item><Card sx={{ borderRadius:"15px 15px"}}>
+                        <Item><Card sx={{ borderRadius:"15px 15px",minHeight:"160px"}}>
                         <CardContent>
+                        <Grid container spacing={{ xs: 1, md: 1 }} columns={{ xs: 1, sm: 10, md: 12 }}>
+                        <Grid item xs={2}>
                             <Typography gutterBottom variant="h5" component="div">
-                       <AlternateEmailIcon sx={{ fontSize: 40 ,color:"white"}}/>
-                            <h8>Эл.Почта</h8>
-                            <br/><h9>www.baxi-comfort.ru</h9>
-                            <br/><h9>info@baxi-comfort.ru</h9>
-                            </Typography>  
+                                    <AlternateEmailIcon sx={{ fontSize: 60 ,color:"white"}}/>
+                             </Typography>  
+                             </Grid>
+                            
+                             <Grid item xs={9}>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    <h8>Эл.Почта</h8> <br/>
+                                   <h9>www.baxi-comfort.ru</h9>
+                                    <br/><h9>dmitrov-teplodom@yandex.ru</h9>
+                                </Typography>  
+                                </Grid>
+                                </Grid>
                         </CardContent>
                         </Card></Item>
                     </Grid>
@@ -50,13 +71,21 @@ export default function Footer(){
                         </Card></Item>
                     </Grid> */}
                     <Grid item xs={4}>
-                        <Item><Card sx={{ borderRadius:"15px 15px"}}>
+                        <Item><Card sx={{ borderRadius:"15px 15px",minHeight:"160px"}}>
                         <CardContent>
+                        <Grid container spacing={{ xs: 1, md: 1 }} columns={{ xs: 1, sm: 10, md: 12 }}>
+                        <Grid item xs={2}>
                             <Typography gutterBottom variant="h5" component="div">
-                          <AccessTimeIcon sx={{ fontSize: 40 ,color:"white"}}/>
+                          <AccessTimeIcon sx={{ fontSize: 60,color:"white"}}/>
+                          </Typography>
+                          </Grid>
+                          <Grid item xs={9}>
+                          <Typography gutterBottom variant="h5" component="div">  
                             <h8>Приезжайте</h8>
                             <br/><h9>МО, г.Дмитров,<br/>ул.Профессиональная ,д.135 </h9>
                             </Typography>  
+                            </Grid>
+                            </Grid>
                         </CardContent>
                         </Card></Item>
                     </Grid>
@@ -79,8 +108,7 @@ export default function Footer(){
                 {/* <Card sx={{ minWidth: 300 ,minHeight: 190,borderRadius:"25px 15px"}}></Card> */}
                 </Grid>
                 </div>
-        </div>
-        </div>
+            </div>
         
     )
 }
