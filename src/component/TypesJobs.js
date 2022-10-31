@@ -44,7 +44,7 @@ export default function TypesJobs(){
         <h2> Отопление</h2>
         </Typography>
         <Typography variant="body2" color="text.secondary">
-       <h9> Монтаж автономного отопления любого типа (котлы, электрический обогрев,теплые полы). Установка радиаторов и конвекторов.</h9>
+       <h5> Монтаж автономного отопления любого типа (котлы, электрический обогрев,теплые полы). Установка радиаторов и конвекторов.</h5>
         </Typography>
       </CardContent>
       <CardActions>
@@ -65,7 +65,7 @@ export default function TypesJobs(){
         <h2>Водоснабжение</h2>
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        <h9>  Все виды сантехнических работ «под ключ»: установка ванных, душевых кабинок, монтаж джакузи, гидроизоляция помещения.</h9>
+        <h5>  Все виды сантехнических работ «под ключ»: установка ванных, душевых кабинок, монтаж джакузи, гидроизоляция помещения.</h5>
         </Typography>
       </CardContent>
       <CardActions>
@@ -87,11 +87,11 @@ export default function TypesJobs(){
         <h2>Канализация</h2>
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        <h9>Монтаж канализационных
+        <h5>Монтаж канализационных
 систем с использованием
 современных материалов.
 Установка систем
-очистки сточных вод.</h9>
+очистки сточных вод.</h5>
         </Typography>
       </CardContent>
       <div className='buttonplace'>

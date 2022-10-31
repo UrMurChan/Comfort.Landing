@@ -1,6 +1,11 @@
+h5{
+    color: aliceblue !important;
+    font-size: 19px;
+}
 @media screen and (max-width: 900px){
-h9{
+h5{
     font-size: 22px !important;
+
 }
 h2{
     font-size: 30px !important;

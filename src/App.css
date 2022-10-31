@@ -90,7 +90,7 @@
   }
   h8{
     color: aliceblue !important;
-    font-size: larger;
+    font-size: 26px;
   }
   .MuiTypography-root .MuiTypography-body1 .MuiListItemText-primary .css-10hburv-MuiTypography-root{
     color: aliceblue !important;
@@ -142,21 +142,6 @@
     background-size: contain;
 
 }
-.Phone{
-    width: 82%;
-    background-color: #5c85f7;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto ;
-    display: block;
-    white-space: pre-wrap;
-    align-items: center;
-    text-align: center;
-    padding-top: 5px;
-    border-radius: 40px;
-    padding-bottom: 2%;
-   margin-bottom: 40px;
-}
 
 @media screen and (max-width: 900px){
   html{
@@ -177,21 +162,7 @@
     background-size: contain;
 
 }
-.Phone{
-    width: 82%;
-    background-color: #5c85f7;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto ;
-    display: block;
-    white-space: pre-wrap;
-    align-items: center;
-    text-align: center;
-    padding-top: 5px;
-    border-radius: 40px;
-    margin-bottom: 20px;
-    background-size: contain;
-}
+
   .Window1{
     /* background-color: rgba(0, 0, 0, 0.3); */
     border-color: #5c85f7;
@@ -258,19 +229,7 @@
     font-size: larger;
   }
 
-  h8{
-    color: aliceblue !important;
-    font-size: 17px;
-    font-weight: bold;
-  }
-  h9{
-    color: aliceblue !important;
-    font-size: 15px;
-  }
-  h10{
-    color: aliceblue !important;
-    font-size: large;
-  }
+
   h2{
     color: aliceblue !important;
     font-size: 24px;
@@ -278,6 +237,19 @@
   h3{
     color: aliceblue !important;
     font-size: larger;
+  }
+  h8{
+    color: aliceblue !important;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  h9{
+    color: aliceblue !important;
+    font-size: 13px !important;
+  }
+  h10{
+    color: aliceblue !important;
+    font-size: large;
   }
   h4{
     color: rgb(6, 123, 226) ;

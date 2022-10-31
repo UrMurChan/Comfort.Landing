@@ -43,13 +43,13 @@ export default function Footer(){
                         <CardContent>
                         <Grid container spacing={{ xs: 1, md: 1 }} columns={{ xs: 1, sm: 10, md: 12 }}>
                         <Grid item xs={2}>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom  component="div">
                                     <AlternateEmailIcon sx={{ fontSize: 60 ,color:"white"}}/>
                              </Typography>  
                              </Grid>
                             
                              <Grid item xs={9}>
-                                <Typography gutterBottom variant="h5" component="div">
+                                <Typography gutterBottom  component="div">
                                     <h8>Эл.Почта</h8> <br/>
                                    <h9>www.baxi-comfort.ru</h9>
                                     <br/><h9>dmitrov-teplodom@yandex.ru</h9>
@@ -75,12 +75,12 @@ export default function Footer(){
                         <CardContent>
                         <Grid container spacing={{ xs: 1, md: 1 }} columns={{ xs: 1, sm: 10, md: 12 }}>
                         <Grid item xs={2}>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom  component="div">
                           <AccessTimeIcon sx={{ fontSize: 60,color:"white"}}/>
                           </Typography>
                           </Grid>
                           <Grid item xs={9}>
-                          <Typography gutterBottom variant="h5" component="div">  
+                          <Typography gutterBottom  component="div">  
                             <h8>Приезжайте</h8>
                             <br/><h9>МО, г.Дмитров,<br/>ул.Профессиональная ,д.135 </h9>
                             </Typography>  

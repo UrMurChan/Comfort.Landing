@@ -27,7 +27,7 @@ export default function StartScreen(){
                                     </Typography>  
                                   </Grid>
                                   <Grid item xs={8}>
-                                 <Typography gutterBottom variant="h5" component="div">
+                                 <Typography gutterBottom  component="div">
                                    
                                   <h8>Телефоны</h8><br/>
                                  <a href="tel:+74956422431">
@@ -52,7 +52,7 @@ export default function StartScreen(){
                              </Grid>
                             
                              <Grid item xs={9}>
-                                <Typography gutterBottom variant="h5" component="div">
+                                <Typography gutterBottom  component="div">
                                     <h8>Эл.Почта</h8> <br/>
                                    <h9>www.baxi-comfort.ru</h9>
                                     <br/><h9>dmitrov-teplodom@yandex.ru</h9>
@@ -83,7 +83,7 @@ export default function StartScreen(){
                           </Typography>
                           </Grid>
                           <Grid item xs={9}>
-                          <Typography gutterBottom variant="h5" component="div">  
+                          <Typography gutterBottom  component="div">  
                             <h8>Приезжайте</h8>
                             <br/><h9>МО, г.Дмитров,<br/>ул.Профессиональная ,д.135 </h9>
                             </Typography>  
