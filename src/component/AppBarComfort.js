@@ -79,7 +79,7 @@ function AppBarComfort(props) {
                     >
                         {title}
                     </Typography>
-                    <Box sx={{display: {xs: 'none', sm: 'block'}}}>       
+                    <Box sx={{display: {xs: 'none', sm: 'block'}}}>      
                         {navItems.map((item) => (
                             <Button href={item.link} key={item.name} sx={{mr: 1, color: '#fff'}} className='AppBar'>
                                 {item.name}

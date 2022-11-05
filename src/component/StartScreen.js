@@ -55,7 +55,7 @@ export default function StartScreen(){
                                 <Typography gutterBottom  component="div">
                                     <h8>Эл.Почта</h8> <br/>
                                    <h9>www.baxi-comfort.ru</h9>
-                                    <br/><h9>dmitrov-teplodom@yandex.ru</h9>
+                                    <br/><h9>dmitrov-otoplenie@yandex.ru</h9>
                                 </Typography>  
                                 </Grid>
                                 </Grid>
