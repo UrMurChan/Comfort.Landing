@@ -21,7 +21,7 @@
   .modal__contentTeplo{
     padding: 5%;
     border-radius:15px ;
-    background-color: #5c85f7;
+    background-color: #1565C0;
     height: auto;
     width: 30%;
     transform: scale(0.5);
@@ -53,7 +53,7 @@
   .modal__contentVoda{
     padding: 5%;
     border-radius:15px ;
-    background-color: #5c85f7;
+    background-color: #1565C0;
     height: auto;
     width: 30%;
     transform: scale(0.5);
@@ -85,7 +85,7 @@
   .modal__contentKanal{
     padding: 5%;
     border-radius:15px ;
-    background-color: #5c85f7;
+    background-color: #1565C0;
     height: auto;
     width: 30%;
     transform: scale(0.5);
@@ -98,7 +98,7 @@
     .modal__contentKanal{
       padding: 5%;
       border-radius:15px ;
-      background-color: #5c85f7;
+      background-color: #1565C0;
       height: auto;
       width: 80%;
       transform: scale(0.5);
@@ -110,7 +110,7 @@
     .modal__contentVoda{
       padding: 5%;
       border-radius:15px ;
-      background-color: #5c85f7;
+      background-color: #1565C0;
       height: auto;
       width: 80%;
       transform: scale(0.5);
@@ -122,7 +122,7 @@
   .modal__contentTeplo{
     padding: 5%;
     border-radius:15px ;
-    background-color: #5c85f7;
+    background-color: #1565C0;
     height: auto;
     width: 80%;
     transform: scale(0.5);

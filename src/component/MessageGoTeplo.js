@@ -16,6 +16,24 @@ import ReCaptchaV2 from 'react-google-recaptcha'
 
 
 // const captchaRef = useRef(null);
+const types = [
+  {
+      value: 'Монтаж отопления',
+      label: 'Монтаж отопления',
+  },
+  {
+      value: 'Монтаж водоснабжения и канализации',
+      label: ' Монтаж водоснабжения',
+  },
+  {
+      value: 'Монтаж котельной',
+      label: 'Монтаж котельной',
+  },
+  {
+    value: 'Комплексный монтаж',
+    label: 'Комплексный монтаж',
+} 
+];
 const TextMaskCustom = React.forwardRef(function TextMaskCustom(props, ref) {
     const { onChange, ...other } = props;
     return (
@@ -52,7 +70,7 @@ export default function MessageGoTeplo() {
   }
 
     const [values, setValues] = React.useState({
-        textmask: '+9(  )   -  - ',
+        textmask: '+0(  )   -  - ',
         numberformat: '1320',
       });
       const handleChange = (event) => {
@@ -94,12 +112,28 @@ export default function MessageGoTeplo() {
 
             <div className='Feedback'>
 
-            <h2>Получите прайс на услуги монтажа системы отопления!</h2>
-            <h9>Оставьте ваши данные и мы перезвоним в течении 15 минут в рабочее время с 09.00 до 20.00</h9>
-            <input type="hidden" name="Type_job" value="Монтаж системы отопления" />
+            <h2>Получите прайс на услуги монтажа любого типа!</h2>
+            <h9>Оставьте ваши данные и мы перезвоним в течении 15 минут в рабочее время с 09.00 до 20.00<br/> </h9>
             {/* <input type="hidden" name="g-recaptcha-response" value={token} /> */}
             <Stack spacing={2} direction="column" alignItems="baseline" style={{flex:0.3}}>
+            <div className='formControl' >
+            <TextField
+                      id="outlined-basic"
+                      required
+                      fullWidth
+                      select
+                      label="Вид работы"
+                      name='Type_job'
+                      variant="outlined">
+                      {types.map((option) => (
+                          <MenuItem key={option.value} value={option.value}>
+                              {option.label}
+                        </MenuItem>
+                    ))}
+                    </TextField>
+                    </div>
             <div className='formControl'>
+                    
                     <TextField 
                     onChange={e => setName(e.target.value)}
                     name="from_name"
@@ -124,7 +158,7 @@ export default function MessageGoTeplo() {
                      sitekey={process.env.REACT_APP_SITE_KEY}
                      ref={captchaRef}
                      /> */}
-                <Button variant="contained" type="submit" value="Send"color='success'>
+                <Button variant="contained" type="submit" value="Send"  sx={{borderWidth:2,borderColor:'white',borderStyle:'solid'}}>
                   Отправить</Button>
                   <h9>Ваши данные в надёжных руках!</h9>
             </Stack>

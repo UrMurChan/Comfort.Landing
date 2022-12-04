@@ -1,10 +1,79 @@
+@font-face {
+  font-family: 'Montserrat BoldItalic';
+  src: local('Montserrat BoldItalic'), url(./fonts/Montserrat-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: local('Montserrat Medium'), url(./fonts/Montserrat-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./fonts/Montserrat-Regular.ttf) format('truetype');}
+  
+  .center{
+    align-items: center;
+    text-align: center;
+  }
+  .MuiMenuItem-root{
+    color: #ffffff !important;
+    /* border-color: #ffffff !important; */
+  }
+  .MuiTypography-root{
+    font-size: 20px !important;
+    font-family: "Montserrat Medium", serif !important;
+  }
+  
+  .MuiPaper-root{background-color: #1565C0 !important;}
+  .MuiBox-root{
+    background-color: #1565C0 !important;
+  }
+  .Knopka{
+    border-color:  #1565C0 !important;
+    text-align: center;
+    border-width: 0px !important;
+    margin-bottom: 2%;
+  }
+  
+  .Milo{
+    -webkit-box-shadow: 4px 4px 97px 25px rgba(255, 255, 255, 1) inset;
+-moz-box-shadow: 4px 4px 97px 25px rgba(255, 255, 255, 1) inset;
+box-shadow: 4px 4px 97px 25px rgba(255, 255, 255, 1) inset;
+  }
+  .Phone{
+    width: 58%;
+    border-color: #1565C0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 0px;
+    border-width: 0px;
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.7);
+  }
+  .open-btn{
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.7) !important;
+  }
+  .logo{
+    width: 15%;
+    height: auto;
+    margin-top: 1%;
+  }
+
+  .Dark{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-bottom: 1.55%;
+  }
+  .containerr{
+    width: 80%;
+    align-items: center;
+  }
   .App {
     text-align: center;
   } 
   a{
     text-decoration: none !important;
   }
-
   html{
     scroll-behavior: smooth;
   }
@@ -15,20 +84,22 @@
   }
   .Window1{
     /* background-color: rgba(0, 0, 0, 0.3); */
-    background-color: #5c85f7;
-    border-color: #5c85f7;
-    border-width: 8px;
-    border-radius: 60px;
+    border-color: #ffffff;
+    border-width: 4px;
+    border-radius: 0px;
     padding: 5px;
-    width: 55%;
-    border-style: solid;
+    width: 70%;
+    border-style:dashed;
     margin: auto;
-    margin-bottom: 6%;
+    margin-bottom: 5%;
+    text-align: center;
+    margin-top: 5%;
+
   }
   .Window2{
     /* background-color: rgba(0, 0, 0, 0.3); */
-    background-color: #5c85f7;
-    border-color: #5c85f7;
+    background-color: #1565C0;
+    border-color: #1565C0;
     border-width: 8px;
     border-radius: 60px;
     padding: 5px;
@@ -38,7 +109,8 @@
   }
   .Purum{
     margin: auto;
-    width: 95%;
+    width: 75%;
+    display: flex;
   }
   .Up{
     width: 87%;
@@ -53,28 +125,25 @@
     margin-top: 7px;
   }
   .BG{
-    /* background: linear-gradient(180deg, #b5c0fa 60%, #748ad4); */
-    background-color: rgb(209, 217, 255);
-  }
-  .MuiPaper-root, MuiPaper-elevation, MuiPaper-elevation16 ,MuiDrawer-paper ,MuiDrawer-paperAnchorLeft ,css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
-    background-color: #7499ff !important;
-  }
-  .BigPhoto{
     background-image: url(./img/Fone.png);
     background-size: cover;
-    padding-top: 1%;
-    padding-bottom: 9%;
-    text-align: center;
-    border-color: #5c85f7;
+    border-color: #1565C0;
     border-width: 0px;
-    border-radius: 0px  0px  180px  180px;
     border-style: solid;
+  }
 
+  .BigPhoto{
+    background-image: url(./img/Fone1.png);
+    background-size: cover;
+    border-color: #1565C0;
+    border-width: 0px;
+    border-style: solid;
+    margin-bottom: 3%;
   }
   .PriceLists{
-    padding-left: 15%;
-    padding-bottom: 10%;
-    padding-top: 3%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .Footer{
     width: 87%;
@@ -88,47 +157,62 @@
   .Setka{
     width: 87%;
   }
+  text{
+    font-family: "Montserrat Medium", serif;
+  }
   h8{
     color: aliceblue !important;
     font-size: 26px;
+    font-family: "Montserrat Medium", serif;
   }
-  .MuiTypography-root .MuiTypography-body1 .MuiListItemText-primary .css-10hburv-MuiTypography-root{
+  .MuiTypography-root  {
     color: aliceblue !important;
     font-size: larger;
   }
   h6{
     color: aliceblue !important;
     font-size: larger;
+    font-family: "Montserrat Medium", serif;
   }
   h9{
     color: aliceblue !important;
     font-size: large;
+    font-family: "Montserrat Medium", serif;
   }
   h10{
     color: aliceblue !important;
     font-size: large;
+    font-family: "Montserrat Medium", serif;
   }
   h1{
     color: aliceblue !important;
     font-size: 40px;
+    font-family: "Montserrat Medium", serif;
+    text-shadow: 4px 8px 2px rgba(0, 0, 0, 0.8);
   }
   h2{
     color: aliceblue !important;
-    font-size: 40px;
+    font-size: 30px;
+    font-family: "Montserrat Medium", serif;
+    text-shadow: 4px 8px 2px rgba(0, 0, 0, 0.8);
+    
   }
   h3{
     color: aliceblue !important;
     font-size:30px;
+    font-family: "Montserrat Medium", serif;
   }
   h4{
     color: rgb(6, 123, 226) ;
     font-size: 40px;
+    font-family: "Montserrat Medium", serif;
   }
   .formControl{
     width: 100%;
     border-radius: 5px;
     background-color: aliceblue ;
     padding: 1px;
+    margin-left: 0% !important;
   }
   .Carousel{
     align-self: flex-end;
@@ -142,10 +226,31 @@
     background-size: contain;
 
 }
-
-@media screen and (max-width: 900px){
-  html{
-    scroll-behavior: smooth;
+.MuiButton-h6{
+  font-size: 20px !important;
+  font-family: "Montserrat Medium", serif !important;
+}
+@media screen and (max-width: 1000px){
+  .Phone{
+    width: 88%;
+    border-color: #1565C0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 0px;
+    border-width: 0px;
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.7);
+  }
+  .Dark{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-bottom: 30%;
+  }
+  .BG{
+    background-image: url(./img/Fone.png);
+    background-size: cover;
+    border-color: #1565C0;
+    border-width: 0px;
+    border-style: solid;
   }
   .App {
     text-align: center;
@@ -164,15 +269,16 @@
 }
 
   .Window1{
-    /* background-color: rgba(0, 0, 0, 0.3); */
-    border-color: #5c85f7;
-    border-width: 8px;
-    border-radius: 60px;
-    border-style: solid;
+    border-color: #ffffff;
+    border-width: 4px;
+    border-radius: 0px;
     padding: 5px;
-    width: 95%;
+    width: 70%;
+    border-style:dashed;
     margin: auto;
-    margin-bottom: 6%;
+    margin-bottom: 5%;
+    text-align: center;
+    margin-top: 5%;
   }
   .Purum{
     margin: auto;
@@ -190,27 +296,15 @@
   .Icons{
     margin-top: 7px;
   }
-  .BG{
-    background: linear-gradient(180deg, #b5c0fa 60%, #748ad4);
-  }
-  .MuiPaper-root, MuiPaper-elevation, MuiPaper-elevation16 ,MuiDrawer-paper ,MuiDrawer-paperAnchorLeft ,css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
-    background-color: #7499ff !important;
-  }
+
   .BigPhoto{
     background-image: url(./img/Fone.png);
     background-size: cover;
     padding-top: 1%;
     padding-bottom: 24%;
-    text-align: center;
-    border-color: #5c85f7;
+    border-color: #1565C0;
     border-width: 0px;
-    border-radius: 0px  0px  80px  80px;
     border-style: solid;
-  }
-  .PriceLists{
-    padding-left: 15%;
-    padding-bottom: 10%;
-    padding-top: 3%;
   }
   .Footer{
     width: 87%;
@@ -232,7 +326,9 @@
 
   h2{
     color: aliceblue !important;
-    font-size: 24px;
+    font-size: 18px;
+    font-family: "Montserrat Medium", serif;
+    text-shadow: 4px 5px 2px rgba(0, 0, 0, 0.8);
   }
   h3{
     color: aliceblue !important;
