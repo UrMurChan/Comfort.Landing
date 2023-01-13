@@ -1,21 +1,12 @@
 import * as React from 'react';
-import IconButton from '@mui/material/IconButton';
 import Grid from '@mui/material/Grid';
 import Item  from '@mui/material/Grid';
-import CallIcon from '@mui/icons-material/Call';
-import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import Typography from '@mui/material/Typography';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import logo from '../img/logo123.jpg'
 import ModalTeplo from './ModalTeplo';
 import MessageGoTeplo from "./MessageGoTeplo";
 import Button from '@mui/material/Button';
-import { useEffect, useState } from "react";
-import ExamplesTeplo from "./ExamplesTeplo"
-import Paper from '@mui/material/Paper';
+import {  useState } from "react";
+import Examples from "./Examples"
+import Description from './Description';
 
 export default function StartScreen(){
     const [modalActiveTeplo,setModalActiveTeplo] = useState(false)
@@ -34,9 +25,9 @@ export default function StartScreen(){
         
         </div>
         <div className='center' >
-        <h1>Примеры наших работ</h1></div>
-                <ExamplesTeplo/>   
-  
+                        <h1>Наши работы</h1></div><div className='container'>
+                                <Examples/>
+        </div>
         <ModalTeplo className="modalTeplo" active={modalActiveTeplo} setActive={setModalActiveTeplo}><MessageGoTeplo/></ModalTeplo>  
         </div>
     )

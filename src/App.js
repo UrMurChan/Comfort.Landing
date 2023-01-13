@@ -5,9 +5,9 @@ import {Stack} from "@mui/material";
 import Toolbar from "@mui/material/Toolbar";
 import './App.css';
 import StartScreen from "./component/StartScreen"
+import Description from "./component/Description"
 import { useEffect, useState } from "react";
 import AppBarComfort from "./component/AppBarComfort";
-import Description from "./component/Description"
 const theme = createTheme({
   palette: {
       primary: {
@@ -34,6 +34,7 @@ function App() {
         <div className='BG'>
         <div className='Dark'>
             <StartScreen/>
+
           </div>
         </div>
         <Description/>

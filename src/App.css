@@ -11,7 +11,38 @@
 @font-face {
   font-family: 'Montserrat';
   src: local('Montserrat'), url(./fonts/Montserrat-Regular.ttf) format('truetype');}
-  
+  .Gal{
+    width: 15%;
+    height: 15%;
+    margin-left: 3%;
+    filter: brightness(0) invert(1);
+  }
+  .flex{
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .Background2{
+    background-color: #1565C0;
+    align-items: center;
+  }
+  .Textbox{
+    border-radius: 30px;
+    border-color: aliceblue;
+    border-width: 3px;
+    border-style: dashed;
+    text-align: center;
+    margin: 2%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container{
+    width: 87%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .center{
     align-items: center;
     text-align: center;
@@ -42,7 +73,7 @@
 box-shadow: 4px 4px 97px 25px rgba(255, 255, 255, 1) inset;
   }
   .Phone{
-    width: 58%;
+    width: 69%;
     border-color: #1565C0;
     margin-left: auto;
     margin-right: auto;
@@ -201,6 +232,7 @@ box-shadow: 4px 4px 97px 25px rgba(255, 255, 255, 1) inset;
     color: aliceblue !important;
     font-size:30px;
     font-family: "Montserrat Medium", serif;
+    margin: 3%;
   }
   h4{
     color: rgb(6, 123, 226) ;
@@ -227,12 +259,18 @@ box-shadow: 4px 4px 97px 25px rgba(255, 255, 255, 1) inset;
 
 }
 .MuiButton-h6{
-  font-size: 20px !important;
+  font-size: 18px !important;
   font-family: "Montserrat Medium", serif !important;
 }
 @media screen and (max-width: 1000px){
+  .container{
+    width: 90%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .Phone{
-    width: 88%;
+    width: 89%;
     border-color: #1565C0;
     margin-left: auto;
     margin-right: auto;

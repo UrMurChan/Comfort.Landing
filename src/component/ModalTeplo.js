@@ -1,4 +1,3 @@
-import { ClassNames } from "@emotion/react"
 import "./Modal.css"
 const ModalTeplo = ({active, setActive, children}) =>{
     return(

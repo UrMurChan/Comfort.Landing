@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
+    "@glidejs/glide": "^3.6.0",
     "@mui/base": "^5.0.0-alpha.100",
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.8",
@@ -20,7 +21,9 @@
     "react-input-mask": "^2.0.4",
     "react-number-format": "^5.0.1",
     "react-scripts": "5.0.1",
+    "react-slider-swiper": "^2.0.6",
     "styled-components": "^5.3.6",
+    "swiper": "^8.4.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
