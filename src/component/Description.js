@@ -8,6 +8,9 @@ import business from "../img/business.png"
 import eng from "../img/engineer.png"
 import free from "../img/free.png"
 import boiler from "../img/boiler.png"
+import map from "../img/map.png"
+import Grid from '@mui/material/Grid';
+
 export default function Description(){
   return (
   <div className='Background2'>
@@ -36,7 +39,24 @@ export default function Description(){
             <div className='flex'>
               <img src={boiler} className="Gal"/>
               <h3>Сервисное обслуживание газовых и электрических котлов BAXI.</h3>
-              </div>
+            </div>
+            {/* <div className='flex'>
+            <Grid  container spacing={{ xs: 1, md: 1 }} columns={{ xs: 10, sm: 10, md: 10 }} className="flex">
+            <Grid item xs={3} sm={3} md={1} ></Grid>
+            <img src={map} className="map"/>
+            <Grid item xs={30} sm={3} md={3} >
+                <ul><h3>Область работы нашей кампании</h3><br/>
+                    <li><h6>Дмитров</h6></li>
+                    <li><h6>Дмитровский Район</h6></li>
+                    <li><h6>Яхрома</h6></li>
+                    <li><h6>Талдом</h6></li>
+                    <li> <h6>Дубна</h6></li>
+                    <li>  <h6>Запрудня</h6></li>
+                </ul></Grid>
+            </Grid>
+
+                
+            </div> */}
     </div>
   </div>
   );

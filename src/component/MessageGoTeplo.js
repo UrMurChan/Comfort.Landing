@@ -112,7 +112,7 @@ export default function MessageGoTeplo() {
 
             <div className='Feedback'>
 
-            <h2>Получите прайс на услуги монтажа любого типа!</h2>
+            <h2>Оставьте заявку на услуги монтажа любого типа!</h2>
             <h9>Оставьте ваши данные и мы перезвоним в течении 15 минут в рабочее время с 09.00 до 20.00<br/> </h9>
             {/* <input type="hidden" name="g-recaptcha-response" value={token} /> */}
             <Stack spacing={2} direction="column" alignItems="baseline" style={{flex:0.3}}>

@@ -26,7 +26,7 @@ export default function StartScreen(){
         </div>
         <div className='center' >
                         <h1>Наши работы</h1></div><div className='container'>
-                                <Examples/>
+                                <Examples className="Examples"/>
         </div>
         <ModalTeplo className="modalTeplo" active={modalActiveTeplo} setActive={setModalActiveTeplo}><MessageGoTeplo/></ModalTeplo>  
         </div>
