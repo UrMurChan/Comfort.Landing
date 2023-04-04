@@ -18,16 +18,7 @@ export default function StartScreen(){
                         <h1>ОТОПЛЕНИЕ И ВОДОСНАБЖЕНИЕ</h1>
                 </div>
                 </div>
-                <div className='Knopka'>  
-                <Button sx={{marginBottom:7}} variant="contained" size="large" className='open-btn'onClick={() => setModalActiveTeplo(true)}><h2>Оставить заявку</h2></Button>
-                     
-              
-        
-        </div>
-        <div className='center' >
-                        <h1>Наши работы</h1></div><div className='container'>
-                                <Examples className="Examples"/>
-        </div>
+                <div className='Knopka'><Button sx={{marginBottom:7}} variant="contained" size="large" className='open-btn'onClick={() => setModalActiveTeplo(true)}><h2>Оставить заявку</h2></Button></div>
         <ModalTeplo className="modalTeplo" active={modalActiveTeplo} setActive={setModalActiveTeplo}><MessageGoTeplo/></ModalTeplo>  
         </div>
     )

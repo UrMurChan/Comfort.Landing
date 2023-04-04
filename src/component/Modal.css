@@ -24,14 +24,14 @@
     border-radius:15px ;
     background-color: #1565C0;
     height: auto;
-    width: 30%;
+    width: 40%;
     transform: scale(0.5);
     transition: 0.4s all;
   }
   .modal__contentTeplo.active{
     transform: scale(1);
   }
-  .modalVoda{
+  .modalExample{
     height: 100vh;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.4);
@@ -46,80 +46,29 @@
     opacity: 0;
     pointer-events: none;
     transition: 0.5s;
+    z-index: 101;
   }
-  .modalVoda.active{
+  .modalExample.active{
     opacity: 1;
     pointer-events: all;
   }
-  .modal__contentVoda{
-    padding: 5%;
+  .modal__contentExample{
+    margin-top: 3%;
+    padding: 1%;
     border-radius:15px ;
     background-color: #1565C0;
-    height: auto;
-    width: 30%;
+    max-height: AUTO;
+    width: 90%;
     transform: scale(0.5);
     transition: 0.4s all;
+    vertical-align: middle;
+    overflow-y: auto; 
   }
-  .modal__contentVoda.active{
+  .modal__contentExample.active{
     transform: scale(1);
   }
-  .modalKanal{
-    height: 100vh;
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 0.4);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    pointer-events: none;
-    transition: 0.5s;
-  }
-  .modalKanal.active{
-    opacity: 1;
-    pointer-events: all;
-  }
-  .modal__contentKanal{
-    padding: 5%;
-    border-radius:15px ;
-    background-color: #1565C0;
-    height: auto;
-    width: 30%;
-    transform: scale(0.5);
-    transition: 0.4s all;
-  }
-  .modal__contentKanal.active{
-    transform: scale(1);
-  }
+  
   @media screen and (max-width: 900px){
-    .modal__contentKanal{
-      padding: 5%;
-      border-radius:15px ;
-      background-color: #1565C0;
-      height: auto;
-      width: 80%;
-      transform: scale(0.5);
-      transition: 0.4s all;
-    }
-    .modal__contentKanal.active{
-      transform: scale(1);
-    }
-    .modal__contentVoda{
-      padding: 5%;
-      border-radius:15px ;
-      background-color: #1565C0;
-      height: auto;
-      width: 80%;
-      transform: scale(0.5);
-      transition: 0.4s all;
-    }
-    .modal__contentVoda.active{
-      transform: scale(1);
-  }
   .modal__contentTeplo{
     padding: 5%;
     border-radius:15px ;
@@ -130,6 +79,19 @@
     transition: 0.4s all;
   }
   .modal__contentTeplo.active{
+    transform: scale(1);
+  }
+  .modal__contentExample{
+    padding: 1%;
+    border-radius:15px ;
+    background-color: #1565C0;
+    width: 85%;
+    transform: scale(0.5);
+    transition: 0.4s all;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+  }
+  .modal__contentExample.active{
     transform: scale(1);
   }
 }

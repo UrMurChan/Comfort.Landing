@@ -10,10 +10,19 @@ import free from "../img/free.png"
 import boiler from "../img/boiler.png"
 import map from "../img/map.png"
 import Grid from '@mui/material/Grid';
+import Item  from '@mui/material/Grid';
+import ModalTeplo from './ModalTeplo';
+import MessageGoTeplo from "./MessageGoTeplo";
+import Button from '@mui/material/Button';
+import {  useState } from "react";
+import Examples from "./Examples"
 
 export default function Description(){
   return (
+    
   <div className='Background2'>
+            <div className='center' ><h1>Наши работы</h1></div>
+            <div className='container'><Examples className="Examples"/></div>
     <div className='Textbox'>
          <h1>  О нас </h1>
 
@@ -39,6 +48,10 @@ export default function Description(){
             <div className='flex'>
               <img src={boiler} className="Gal"/>
               <h3>Сервисное обслуживание газовых и электрических котлов BAXI.</h3>
+            </div>
+            <div className=''>
+                <h1>Промокод!</h1>
+                <h3>Скажите фразу "Хочу тепло в дом24!" и Получите скидку в 10% на монтаж"</h3>
             </div>
             {/* <div className='flex'>
             <Grid  container spacing={{ xs: 1, md: 1 }} columns={{ xs: 10, sm: 10, md: 10 }} className="flex">
